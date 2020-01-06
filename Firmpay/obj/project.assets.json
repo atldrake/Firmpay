@@ -5404,11 +5404,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#\\Firmpay\\Firmpay.csproj",
+      "projectUniqueName": "C:\\C#\\FirmpayApp\\Firmpay\\Firmpay.csproj",
       "projectName": "Firmpay",
-      "projectPath": "C:\\C#\\Firmpay\\Firmpay.csproj",
+      "projectPath": "C:\\C#\\FirmpayApp\\Firmpay\\Firmpay.csproj",
       "packagesPath": "C:\\Users\\ATL Drake\\.nuget\\packages\\",
-      "outputPath": "C:\\C#\\Firmpay\\obj\\",
+      "outputPath": "C:\\C#\\FirmpayApp\\Firmpay\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5429,11 +5429,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\C#\\Firmpay.Entity\\Firmpay.Entity.csproj": {
-              "projectPath": "C:\\C#\\Firmpay.Entity\\Firmpay.Entity.csproj"
+            "C:\\C#\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj": {
+              "projectPath": "C:\\C#\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj"
             },
-            "C:\\C#\\Firmpay.Services\\Firmpay.Services.csproj": {
-              "projectPath": "C:\\C#\\Firmpay.Services\\Firmpay.Services.csproj"
+            "C:\\C#\\FirmpayApp\\Firmpay.Services\\Firmpay.Services.csproj": {
+              "projectPath": "C:\\C#\\FirmpayApp\\Firmpay.Services\\Firmpay.Services.csproj"
             }
           }
         }

@@ -448,11 +448,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C#\\Firmpay.Entity\\Firmpay.Entity.csproj",
+      "projectUniqueName": "C:\\C#\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj",
       "projectName": "Firmpay.Entity",
-      "projectPath": "C:\\C#\\Firmpay.Entity\\Firmpay.Entity.csproj",
+      "projectPath": "C:\\C#\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj",
       "packagesPath": "C:\\Users\\ATL Drake\\.nuget\\packages\\",
-      "outputPath": "C:\\C#\\Firmpay.Entity\\obj\\",
+      "outputPath": "C:\\C#\\FirmpayApp\\Firmpay.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
