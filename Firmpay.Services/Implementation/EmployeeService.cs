@@ -13,7 +13,6 @@ namespace Firmpay.Services.Implementation
         private readonly ApplicationDbContext _context;
         private decimal studentLoanAmount;
 
-
         public EmployeeService(ApplicationDbContext context)
         {
             _context = context;
