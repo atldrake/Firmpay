@@ -12,6 +12,8 @@ using Firmpay.Persistence;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Firmpay.Services;
+using Firmpay.Services.Implementation;
 
 namespace Firmpay
 {
@@ -34,7 +36,8 @@ namespace Firmpay
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
-        }
+            services.AddScoped<IEmployeeService, EmployeeService>();
+        } 
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
