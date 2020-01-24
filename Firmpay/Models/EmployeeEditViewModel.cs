@@ -26,9 +26,9 @@ namespace Firmpay.Models
         public string Gender { get; set; }
         [Display(Name = "Photo")]
         public IFormFile ImageUrl { get; set; }
-        [DataType(DataType.Date), Display(Name = "Date Joined")]
-        public DateTime DOB { get; set; }
         [DataType(DataType.Date), Display(Name = "Date Of Birth")]
+        public DateTime DOB { get; set; }
+        [DataType(DataType.Date), Display(Name = "Date Joined")]
         public DateTime DateJoined { get; set; } 
         public string Phone { get; set; }
         [Required(ErrorMessage = "Job Role is required"), StringLength(100)]

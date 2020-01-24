@@ -142,3 +142,7 @@ C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Firmpay.dll
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Firmpay.pdb
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Index.cshtml.g.cs
+C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.cshtml.g.cs
+C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
+C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Detail.cshtml.g.cs
+C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs

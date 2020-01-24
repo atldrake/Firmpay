@@ -25,7 +25,7 @@
                                     <th>Gender</th>
                                     <th>Designation</th>
                                     <th>City</th>
-                                    <th>Start Date</th>
+                                    <th>Joined</th>
                                     <th class="text-warning">Actions</th>
                                 </tr>
                             </thead>
@@ -45,7 +45,7 @@
                                         <td>@item.Gender</td>
                                         <td>@item.Designation</td>
                                         <td>@item.City</td>
-                                        <td>@item.DateJoined</td>
+                                        <td>@item.DateJoined.ToString("dd/mm/yyyy")</td>
                                         <td>
                                             <a class="text-primary" asp-action="Edit" asp-route-id="@item.Id">
                                                 <i class="fas fa-edit"></i> Edit
