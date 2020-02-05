@@ -146,3 +146,9 @@ C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Create.csh
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Edit.cshtml.g.cs
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Detail.cshtml.g.cs
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Employee\Delete.cshtml.g.cs
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
