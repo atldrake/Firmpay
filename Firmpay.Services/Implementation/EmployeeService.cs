@@ -1,5 +1,6 @@
 ﻿using Firmpay.Entity;
 using Firmpay.Persistence;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,7 @@ namespace Firmpay.Services.Implementation
     {
         private readonly ApplicationDbContext _context;
         private decimal studentLoanAmount;
+        //private decimal fee;
 
         public EmployeeService(ApplicationDbContext context)
         {
@@ -51,14 +53,56 @@ namespace Firmpay.Services.Implementation
 
         public decimal StudentLoanRepaymentAmount(int id, decimal totalAmount)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            if (employee.StudentLoan == StudentLoan.Yes && totalAmount > 1700 && totalAmount < 2000)
+            {
+                studentLoanAmount = 15m;
+            }
+            else if (employee.StudentLoan == StudentLoan.Yes && totalAmount >= 2000 && totalAmount < 2250)
+            {
+                studentLoanAmount = 38m;
+            }
+            else if (employee.StudentLoan == StudentLoan.Yes && totalAmount >= 2250 && totalAmount < 2500)
+            {
+                studentLoanAmount = 60m;
+            }
+            else if (employee.StudentLoan == StudentLoan.Yes && totalAmount >= 2500)
+            {
+                studentLoanAmount = 83m;
+            }
+            else
+            {
+                studentLoanAmount = 0m;
+
+            }
+            return studentLoanAmount;
         }
 
         public decimal UnionFees(int id)
         {
-            throw new NotImplementedException();
+            var employee = GetById(id);
+            //Lets use Tenary Operator Instead
+            var fee = employee.UnionMember == UnionMember.Yes ? 10m : 0m;
+            return fee;
+
+            //if (employee.UnionMember == UnionMember.Yes)
+            //{
+            //    fee = 10m;
+            //}
+            //else
+            //{
+            //    fee = 0m;
+            //}
+            //return fee;
         }
 
-        
+        public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()
+        {
+            return GetAll().Select(emp => new SelectListItem()
+            {
+                Text = emp.FullName,
+                Value = emp.Id.ToString()
+            });
+        }
     }
 }

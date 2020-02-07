@@ -85,5 +85,8 @@ namespace Firmpay.Services.Implementation
 
         public decimal TotalEarnings(decimal overtimeEarnings, decimal conctractualEarnings)
         => overtimeEarnings + conctractualEarnings;
+
+        public TaxYear GetTaxYearById(int id)
+        => _context.TaxYears.Where(year => year.Id == id).FirstOrDefault();
     }
 }
