@@ -281,6 +281,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "RotativaCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             }
           },
           "imports": [

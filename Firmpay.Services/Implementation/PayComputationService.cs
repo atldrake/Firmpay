@@ -27,19 +27,19 @@ namespace Firmpay.Services.Implementation
             }
             else
             {
-                contractualEarnings = contractualEarnings * hourlyRate;
+                contractualEarnings = contractualHours * hourlyRate;
             }
             return contractualEarnings;
         }
 
         public async Task CreateAsync(PaymentRecord paymentRecord)
         {
-           await _context.PaymentRecords.AddAsync(paymentRecord);
-           await _context.SaveChangesAsync();
+            await _context.PaymentRecords.AddAsync(paymentRecord);
+            await _context.SaveChangesAsync();
         }
 
         public IEnumerable<PaymentRecord> GetAll() => _context.PaymentRecords.OrderBy(p => p.EmployeeId);
-        
+
 
         public IEnumerable<SelectListItem> GetAllTaxYear()
         {
@@ -61,7 +61,6 @@ namespace Firmpay.Services.Implementation
 
         public decimal OvertimeEarnings(decimal overtimeRate, decimal overtimeHours)
             => overtimeHours * overtimeRate;
-        
 
         public decimal OvertimeHours(decimal hoursWorked, decimal contractualHours)
         {
@@ -72,19 +71,17 @@ namespace Firmpay.Services.Implementation
             else if (hoursWorked > contractualHours)
             {
                 overtimeHours = hoursWorked - contractualHours;
-
             }
             return overtimeHours;
         }
 
         public decimal OvertimeRate(decimal hourlyRate) => hourlyRate * 1.5m;
 
-
         public decimal TotalDeduction(decimal tax, decimal nic, decimal studentLoanRepayment, decimal unionFees)
         => tax + nic + studentLoanRepayment + unionFees;
 
-        public decimal TotalEarnings(decimal overtimeEarnings, decimal conctractualEarnings)
-        => overtimeEarnings + conctractualEarnings;
+        public decimal TotalEarnings(decimal overtimeEarnings, decimal contractualEarnings)
+        => overtimeEarnings + contractualEarnings;
 
         public TaxYear GetTaxYearById(int id)
         => _context.TaxYears.Where(year => year.Id == id).FirstOrDefault();

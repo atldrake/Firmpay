@@ -116,8 +116,6 @@ C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Firmpay.Persistence.pdb
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Firmpay.csprojAssemblyReference.cache
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\staticwebassets\Firmpay.StaticWebAssets.Manifest.cache
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\staticwebassets\Firmpay.StaticWebAssets.xml
-C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Firmpay.MvcApplicationPartsAssemblyInfo.cs
-C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Firmpay.MvcApplicationPartsAssemblyInfo.cache
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Firmpay.RazorAssemblyInfo.cache
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Firmpay.RazorAssemblyInfo.cs
 C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Firmpay.AssemblyInfoInputs.cache
@@ -152,3 +150,17 @@ C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Dependency
 C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Pay\Index.cshtml.g.cs
+C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Pay\Create.cshtml.g.cs
+C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Pay\Detail.cshtml.g.cs
+C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Razor\Views\Pay\Payslip.cshtml.g.cs
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\RotativaCore.dll
+C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Firmpay.MvcApplicationPartsAssemblyInfo.cs
+C:\C#\FirmpayApp\Firmpay\obj\Debug\netcoreapp3.1\Firmpay.MvcApplicationPartsAssemblyInfo.cache
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\WkHtmlToPdf\wkhtmltoimage.exe
+C:\C#\FirmpayApp\Firmpay\bin\Debug\netcoreapp3.1\WkHtmlToPdf\wkhtmltopdf.exe

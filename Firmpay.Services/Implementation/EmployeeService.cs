@@ -1,6 +1,7 @@
 ﻿using Firmpay.Entity;
 using Firmpay.Persistence;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +10,12 @@ using System.Threading.Tasks;
 
 namespace Firmpay.Services.Implementation
 {
+    
     public class EmployeeService : IEmployeeService
     {
         private readonly ApplicationDbContext _context;
         private decimal studentLoanAmount;
-        //private decimal fee;
+
 
         public EmployeeService(ApplicationDbContext context)
         {
@@ -35,7 +37,7 @@ namespace Firmpay.Services.Implementation
             await _context.SaveChangesAsync();
         }
 
-        public IEnumerable<Employee> GetAll() => _context.Employees;
+        public IEnumerable<Employee> GetAll() => _context.Employees.AsNoTracking().OrderBy(emp => emp.FullName);
 
         public async Task UpdateAsync(Employee employee)
         {
@@ -50,11 +52,10 @@ namespace Firmpay.Services.Implementation
             await _context.SaveChangesAsync();
         }
 
-
         public decimal StudentLoanRepaymentAmount(int id, decimal totalAmount)
         {
             var employee = GetById(id);
-            if (employee.StudentLoan == StudentLoan.Yes && totalAmount > 1700 && totalAmount < 2000)
+            if (employee.StudentLoan == StudentLoan.Yes && totalAmount > 1750 && totalAmount < 2000)
             {
                 studentLoanAmount = 15m;
             }
@@ -73,7 +74,6 @@ namespace Firmpay.Services.Implementation
             else
             {
                 studentLoanAmount = 0m;
-
             }
             return studentLoanAmount;
         }
@@ -81,19 +81,9 @@ namespace Firmpay.Services.Implementation
         public decimal UnionFees(int id)
         {
             var employee = GetById(id);
-            //Lets use Tenary Operator Instead
             var fee = employee.UnionMember == UnionMember.Yes ? 10m : 0m;
             return fee;
 
-            //if (employee.UnionMember == UnionMember.Yes)
-            //{
-            //    fee = 10m;
-            //}
-            //else
-            //{
-            //    fee = 0m;
-            //}
-            //return fee;
         }
 
         public IEnumerable<SelectListItem> GetAllEmployeesForPayroll()

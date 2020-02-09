@@ -7,26 +7,26 @@ namespace Firmpay.Services.Implementation
     public class NationalInsuranceContributionService : INationalInsuranceContributionService
     {
         private decimal NIRate;
-        private decimal NIC; 
+        private decimal NIC;
         public decimal NIContribution(decimal totalAmount)
-        {           
-            if (totalAmount < 700)
+        {
+            if (totalAmount < 719)
             {
-                //lower Earning Limit Rate and below Primary Threshold 
+                //Lower Earning Limit Rate & below Primary Threshold
                 NIRate = .0m;
                 NIC = 0m;
             }
-            else if (totalAmount >= 700 && totalAmount < 4000)
+            else if (totalAmount >= 719 && totalAmount <= 4167)
             {
-                //Between Primary and Upper Earning Limit(UEL)
+                //Between Primary Threshold and Upper Earnings Limit (UEL)
                 NIRate = .12m;
-                NIC = ((totalAmount - 700) * NIRate);
+                NIC = ((totalAmount - 719) * NIRate);
             }
-            else if (totalAmount > 4000)
+            else if (totalAmount > 4167)
             {
-                //Above Upper Earning Limit(UEL)
+                //Above Upper Earnings Limit (UEL)
                 NIRate = .02m;
-                NIC = ((4000 - 700) * .12m) + ((totalAmount - 4000) * NIRate);
+                NIC = ((4167 - 719) * .12m) + ((totalAmount - 4167) * NIRate);
             }
             return NIC;
         }
