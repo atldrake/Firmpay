@@ -9,7 +9,6 @@ C:\C#\Firmpay.Entity\obj\Debug\netcoreapp3.1\Firmpay.Entity.pdb
 C:\C#\FirmpayApp\Firmpay.Entity\bin\Debug\netcoreapp3.1\Firmpay.Entity.deps.json
 C:\C#\FirmpayApp\Firmpay.Entity\bin\Debug\netcoreapp3.1\Firmpay.Entity.dll
 C:\C#\FirmpayApp\Firmpay.Entity\bin\Debug\netcoreapp3.1\Firmpay.Entity.pdb
-C:\C#\FirmpayApp\Firmpay.Entity\obj\Debug\netcoreapp3.1\Firmpay.Entity.csprojAssemblyReference.cache
 C:\C#\FirmpayApp\Firmpay.Entity\obj\Debug\netcoreapp3.1\Firmpay.Entity.AssemblyInfoInputs.cache
 C:\C#\FirmpayApp\Firmpay.Entity\obj\Debug\netcoreapp3.1\Firmpay.Entity.AssemblyInfo.cs
 C:\C#\FirmpayApp\Firmpay.Entity\obj\Debug\netcoreapp3.1\Firmpay.Entity.dll

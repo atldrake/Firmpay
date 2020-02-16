@@ -24,3 +24,16 @@ C:\C#\FirmpayApp\Firmpay.Persistence\obj\Debug\netcoreapp3.1\Firmpay.Persistence
 C:\C#\FirmpayApp\Firmpay.Persistence\obj\Debug\netcoreapp3.1\Firmpay.Persistence.csproj.CopyComplete
 C:\C#\FirmpayApp\Firmpay.Persistence\obj\Debug\netcoreapp3.1\Firmpay.Persistence.dll
 C:\C#\FirmpayApp\Firmpay.Persistence\obj\Debug\netcoreapp3.1\Firmpay.Persistence.pdb
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\bin\Debug\netcoreapp3.1\Firmpay.Persistence.deps.json
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\bin\Debug\netcoreapp3.1\Firmpay.Persistence.runtimeconfig.json
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\bin\Debug\netcoreapp3.1\Firmpay.Persistence.runtimeconfig.dev.json
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\bin\Debug\netcoreapp3.1\Firmpay.Persistence.dll
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\bin\Debug\netcoreapp3.1\Firmpay.Persistence.pdb
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\bin\Debug\netcoreapp3.1\Firmpay.Entity.dll
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\bin\Debug\netcoreapp3.1\Firmpay.Entity.pdb
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\obj\Debug\netcoreapp3.1\Firmpay.Persistence.csprojAssemblyReference.cache
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\obj\Debug\netcoreapp3.1\Firmpay.Persistence.AssemblyInfoInputs.cache
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\obj\Debug\netcoreapp3.1\Firmpay.Persistence.AssemblyInfo.cs
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\obj\Debug\netcoreapp3.1\Firmpay.Persistence.csproj.CopyComplete
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\obj\Debug\netcoreapp3.1\Firmpay.Persistence.dll
+C:\C#\FirmpayApp\FirmpayApp\Firmpay.Persistence\obj\Debug\netcoreapp3.1\Firmpay.Persistence.pdb

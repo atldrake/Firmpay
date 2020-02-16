@@ -9,9 +9,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Hosting.Internal;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Firmpay.Controllers
 {
+    [Authorize]
     public class EmployeeController: Controller
     {
         private readonly IEmployeeService _employeeService;
