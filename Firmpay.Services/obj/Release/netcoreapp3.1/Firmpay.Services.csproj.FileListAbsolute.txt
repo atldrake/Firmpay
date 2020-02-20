@@ -1,0 +1,13 @@
+C:\C#\FirmpayApp\Firmpay.Services\bin\Release\netcoreapp3.1\Firmpay.Services.deps.json
+C:\C#\FirmpayApp\Firmpay.Services\bin\Release\netcoreapp3.1\Firmpay.Services.dll
+C:\C#\FirmpayApp\Firmpay.Services\bin\Release\netcoreapp3.1\Firmpay.Services.pdb
+C:\C#\FirmpayApp\Firmpay.Services\bin\Release\netcoreapp3.1\Firmpay.Entity.dll
+C:\C#\FirmpayApp\Firmpay.Services\bin\Release\netcoreapp3.1\Firmpay.Persistence.dll
+C:\C#\FirmpayApp\Firmpay.Services\bin\Release\netcoreapp3.1\Firmpay.Entity.pdb
+C:\C#\FirmpayApp\Firmpay.Services\bin\Release\netcoreapp3.1\Firmpay.Persistence.pdb
+C:\C#\FirmpayApp\Firmpay.Services\obj\Release\netcoreapp3.1\Firmpay.Services.csprojAssemblyReference.cache
+C:\C#\FirmpayApp\Firmpay.Services\obj\Release\netcoreapp3.1\Firmpay.Services.AssemblyInfoInputs.cache
+C:\C#\FirmpayApp\Firmpay.Services\obj\Release\netcoreapp3.1\Firmpay.Services.AssemblyInfo.cs
+C:\C#\FirmpayApp\Firmpay.Services\obj\Release\netcoreapp3.1\Firmpay.Services.csproj.CopyComplete
+C:\C#\FirmpayApp\Firmpay.Services\obj\Release\netcoreapp3.1\Firmpay.Services.dll
+C:\C#\FirmpayApp\Firmpay.Services\obj\Release\netcoreapp3.1\Firmpay.Services.pdb

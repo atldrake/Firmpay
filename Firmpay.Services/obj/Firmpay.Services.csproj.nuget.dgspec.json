@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Services\\Firmpay.Services.csproj": {}
+    "C:\\C#\\FirmpayApp\\Firmpay.Services\\Firmpay.Services.csproj": {}
   },
   "projects": {
-    "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj": {
+    "C:\\C#\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj",
+        "projectUniqueName": "C:\\C#\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj",
         "projectName": "Firmpay.Entity",
-        "projectPath": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj",
+        "projectPath": "C:\\C#\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj",
         "packagesPath": "C:\\Users\\ATL Drake\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Entity\\obj\\",
+        "outputPath": "C:\\C#\\FirmpayApp\\Firmpay.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Persistence\\Firmpay.Persistence.csproj": {
+    "C:\\C#\\FirmpayApp\\Firmpay.Persistence\\Firmpay.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Persistence\\Firmpay.Persistence.csproj",
+        "projectUniqueName": "C:\\C#\\FirmpayApp\\Firmpay.Persistence\\Firmpay.Persistence.csproj",
         "projectName": "Firmpay.Persistence",
-        "projectPath": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Persistence\\Firmpay.Persistence.csproj",
+        "projectPath": "C:\\C#\\FirmpayApp\\Firmpay.Persistence\\Firmpay.Persistence.csproj",
         "packagesPath": "C:\\Users\\ATL Drake\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Persistence\\obj\\",
+        "outputPath": "C:\\C#\\FirmpayApp\\Firmpay.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -97,8 +97,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj": {
-                "projectPath": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj"
+              "C:\\C#\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj": {
+                "projectPath": "C:\\C#\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Services\\Firmpay.Services.csproj": {
+    "C:\\C#\\FirmpayApp\\Firmpay.Services\\Firmpay.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Services\\Firmpay.Services.csproj",
+        "projectUniqueName": "C:\\C#\\FirmpayApp\\Firmpay.Services\\Firmpay.Services.csproj",
         "projectName": "Firmpay.Services",
-        "projectPath": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Services\\Firmpay.Services.csproj",
+        "projectPath": "C:\\C#\\FirmpayApp\\Firmpay.Services\\Firmpay.Services.csproj",
         "packagesPath": "C:\\Users\\ATL Drake\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Services\\obj\\",
+        "outputPath": "C:\\C#\\FirmpayApp\\Firmpay.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -174,11 +174,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj": {
-                "projectPath": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj"
+              "C:\\C#\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj": {
+                "projectPath": "C:\\C#\\FirmpayApp\\Firmpay.Entity\\Firmpay.Entity.csproj"
               },
-              "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Persistence\\Firmpay.Persistence.csproj": {
-                "projectPath": "C:\\C#\\FirmpayApp\\FirmpayApp\\Firmpay.Persistence\\Firmpay.Persistence.csproj"
+              "C:\\C#\\FirmpayApp\\Firmpay.Persistence\\Firmpay.Persistence.csproj": {
+                "projectPath": "C:\\C#\\FirmpayApp\\Firmpay.Persistence\\Firmpay.Persistence.csproj"
               }
             }
           }
