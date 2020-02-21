@@ -13,4 +13,3 @@ C:\C#\FirmpayApp\Firmpay.Entity\obj\Debug\netcoreapp3.1\Firmpay.Entity.AssemblyI
 C:\C#\FirmpayApp\Firmpay.Entity\obj\Debug\netcoreapp3.1\Firmpay.Entity.AssemblyInfo.cs
 C:\C#\FirmpayApp\Firmpay.Entity\obj\Debug\netcoreapp3.1\Firmpay.Entity.dll
 C:\C#\FirmpayApp\Firmpay.Entity\obj\Debug\netcoreapp3.1\Firmpay.Entity.pdb
-C:\C#\FirmpayApp\Firmpay.Entity\obj\Debug\netcoreapp3.1\Firmpay.Entity.csprojAssemblyReference.cache

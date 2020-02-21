@@ -54,7 +54,7 @@ namespace Firmpay.Persistence
                 IdentityUser user = new IdentityUser
                 {
                     UserName = "staff@firmtechsolution.com",
-                    Email = "staff@firmtechsolution.comm"
+                    Email = "staff@firmtechsolution.com"
                 };
                 IdentityResult identityResult = userManager.CreateAsync(user, "Password1").Result;
                 if (identityResult.Succeeded)
